@@ -1,0 +1,41 @@
+/* src/assets/main.css */
+
+/* 1. RESET BÁSICO (Importante para quitar márgenes raros) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. FUENTES Y COLORES GLOBALES */
+:root {
+    --primary-color: #1a1a1a;      /* Negro suave */
+    --accent-color: #d4af37;       /* Dorado */
+    --text-color: #333;
+    --bg-color: #ffffff;
+    --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-serif: 'Georgia', serif;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased; /* Hace que la letra se vea más nítida */
+}
+
+/* 3. QUITAR ESTILOS FEOS POR DEFECTO */
+ul {
+    list-style: none; /* ADIÓS A LOS PUNTOS • */
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* Adiós al subrayado azul */
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+}
