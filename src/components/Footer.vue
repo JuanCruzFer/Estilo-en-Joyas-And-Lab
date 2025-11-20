@@ -11,13 +11,13 @@
         </div>
 
         <div class="footer-section contact">
-            <h3>Contáctanos</h3>
+            <h3 id="contact">Contáctanos</h3>
             <p>¿Tienes dudas? Escríbenos:</p>
             <div class="social-icons">
-            <a href="#" class="social-link instagram">
+            <a href="https://www.instagram.com/andlabrador?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-link instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="#" class="social-link whatsapp">
+            <a href="https://wa.me/5492644631070" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
             </div>

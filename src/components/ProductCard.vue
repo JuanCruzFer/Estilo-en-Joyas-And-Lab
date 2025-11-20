@@ -22,22 +22,31 @@
 
 <style scoped>
 .product-card {
-    min-width: 250px; /* Ancho fijo para el carrusel */
+    /* IMPORTANTE: Esto evita que la tarjeta se estire al infinito */
+    min-width: 250px; 
+    max-width: 250px; /* Añade esto por seguridad */
+    transition: transform 0.3s;
     background: white;
     border: 1px solid #eee;
     scroll-snap-align: start;
-    transition: transform 0.3s;
+}
+
+.product-img {
+    height: 250px; /* Altura fija */
+    width: 100%;
+    background-color: #f0f0f0; /* Fondo gris por si la imagen no carga */
+    overflow: hidden;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto recorta la imagen para que encaje perfecto */
 }
 
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.product-img {
-    height: 250px;
-    width: 100%;
-    overflow: hidden;
 }
 
 .product-img img {

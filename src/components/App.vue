@@ -15,7 +15,7 @@ const heroSlides = [
   },
   {
     title: "Brillo de Temporada",
-    text: "Nueva colección de diamantes y plata para deslumbrar.",
+    text: "Nuestra colección hecha para deslumbrar.",
     image: "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=2070&auto=format&fit=crop",
     buttonText: "Comprar Ahora"
   },
@@ -33,7 +33,7 @@ const jewelryProducts = [
     id: 1,
     name: "Anillo Solitario",
     price: "$120.00 USD",
-    image: "https://via.placeholder.com/300/000000/FFFFFF/?text=Joya"
+    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ const jewelryProducts = [
     
     <Bigcarousel :slides="heroSlides" />
     
-    <ProductSlider :products="jewelryProducts" title="Nuestras Joyas" />
+    <ProductSlider :products="jewelryProducts" title="Algunas de Nuestras Joyas" />
     
     <Footer />
   </div>
